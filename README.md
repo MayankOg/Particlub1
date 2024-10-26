@@ -1,65 +1,48 @@
-Here's a sample `README.md` for your **Particlub** repository, focused on showcasing college events nearby:
-
----
 
 # Particlub 🎉
 
-![Particlub Logo](https://via.placeholder.com/150) <!-- Replace with your logo URL if available -->
-
-**Particlub** is a vibrant, community-driven app designed to help students stay connected with college events happening nearby! Whether it’s workshops, fests, or study sessions, Particlub has you covered, making it easy for you to find and join events that match your interests. 
+**Particlub** is a minimalistic web app where college students can submit events to share with the community. After admin approval, the events will be listed for everyone to view and participate in!
 
 ---
 
 ## Features 🚀
 
-- **Nearby Events**: Discover college events based on your location.
-- **Event Categories**: Filter events by type – Fests, Workshops, Seminars, Sports, and more!
-- **Instant RSVP**: Easily RSVP and add events to your calendar.
-- **Customizable Notifications**: Stay updated with notifications tailored to your preferences.
-- **Share with Friends**: Invite friends to join you at events with easy sharing options.
+- **Event Submission**: Users can submit events with details like title, date, time, and location.
+- **Event Approval System**: Only approved events are visible to all users, ensuring quality and relevance.
+- **Event Listing**: Displays a list of all approved college events nearby.
+
+---
 
 ## How It Works 🔍
 
-1. **Find Events Nearby** - Particlub uses location-based services to show events happening around you.
-2. **Explore Event Details** - Click on an event to see details like location, date, time, and organizer information.
-3. **RSVP and Stay Updated** - RSVP to the event and get notified about any updates.
-4. **Share and Engage** - Invite your friends or share event details with others easily.
+1. **Submit an Event** - Users fill out a form with event details.
+2. **Approval Process** - Submitted events are held for review and require admin approval before being listed.
+3. **Discover Events** - Approved events are displayed on the site for everyone to view and participate in.
 
 ---
 
 ## Screenshots 📸
 
-### Home Screen
-![Home Screen](https://via.placeholder.com/250) <!-- Replace with actual screenshots -->
+### Home Page
+![Home Page](https://via.placeholder.com/250) <!-- Replace with actual screenshots -->
 
-### Event Details
-![Event Details](https://via.placeholder.com/250) <!-- Replace with actual screenshots -->
+### Event Submission Form
+![Event Submission Form](https://via.placeholder.com/250) <!-- Replace with actual screenshots -->
 
-### RSVP Feature
-![RSVP Feature](https://via.placeholder.com/250) <!-- Replace with actual screenshots -->
+### Event Listing
+![Event Listing](https://via.placeholder.com/250) <!-- Replace with actual screenshots -->
 
 ---
 
 ## Tech Stack 🛠️
 
-- **Flutter** - for a seamless cross-platform mobile experience
-- **AWS Amplify** - backend services for authentication and data storage
-- **GraphQL** - for efficient and flexible API data fetching
-- **DynamoDB** - fast, scalable, and serverless NoSQL database
-- **Docker** - containerization for easy deployment
-- **Cloud Services** - using AWS, Firebase, and more
+- **HTML** - for the structure of the app
+- **CSS** - for styling and layout
+- **JavaScript** - for interactivity and dynamic content handling
 
 ---
 
 ## Getting Started 🏁
-
-### Prerequisites
-
-- Flutter SDK
-- Amplify CLI
-- Android Studio or Xcode
-
-### Installation
 
 1. **Clone the Repository**
    ```bash
@@ -67,27 +50,26 @@ Here's a sample `README.md` for your **Particlub** repository, focused on showca
    cd Particlub
    ```
 
-2. **Install Dependencies**
-   ```bash
-   flutter pub get
-   ```
+2. **Open in Browser**
+   Simply open `index.html` in your browser to view the site locally.
 
-3. **Configure Amplify**
-   ```bash
-   amplify init
-   amplify push
-   ```
+---
 
-4. **Run the App**
-   ```bash
-   flutter run
-   ```
+## Project Structure 📁
+
+```
+Particlub/
+├── index.html       # Home page
+├── submit-event.html  # Event submission form
+├── styles/
+│   └── styles.css   # Main CSS file
+└── scripts/
+    └── app.js       # Main JavaScript file
+```
 
 ---
 
 ## Contributing 🤝
-
-Want to help improve Particlub? Contributions are welcome! Here’s how:
 
 1. Fork this repository.
 2. Create a branch with your feature or fix:
@@ -114,7 +96,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Connect with Us 🌐
 
-Stay connected and follow our progress:
+Stay updated with future developments and join our community:
 
 - [Website](#) - Coming soon!
 - [LinkedIn](#)
@@ -122,6 +104,6 @@ Stay connected and follow our progress:
 
 ---
 
-Let Particlub be your go-to app for staying in the loop with college events! 🎉✨
+Let Particlub be your go-to platform for sharing and discovering college events! 🎉✨
 
---- 
+---
