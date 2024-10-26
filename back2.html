@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Submit Event Details</title>
+	<link rel="stylesheet" type="text/css" href="style21.css">
+</head>
+<body>
+	<form action="submit-event.php" method="post" enctype="multipart/form-data">
+		<label for="event-name">Event Name:</label>
+		<input type="text" id="event-name" name="event-name" required>
+		
+		<label for="event-date">Event Date:</label>
+		<input type="date" id="event-date" name="event-date" required>
+		
+		<label for="event-description">Event Description:</label>
+		<textarea id="event-description" name="event-description" rows="5" required></textarea>
+		
+		<label for="event-image">Event Image:</label>
+		<input type="file" id="event-image" name="event-image">
+		
+		<input type="submit" value="Submit">
+	</form>
+</body>
+</html>

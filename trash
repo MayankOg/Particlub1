@@ -1,0 +1,59 @@
+//Define the data for the team members
+const teamMembers = [
+    {
+      name: 'Mayank Sharma',
+      position: 'CEO',
+      bio: 'John has over 20 years of experience in the industry and is passionate about delivering high-quality products and services to our clients.',
+      image: ''
+    },
+    {
+      name: 'Jane Smith',
+      position: 'Marketing Director',
+      bio: 'Jane is a creative and strategic thinker with a proven track record of success in developing and implementing marketing campaigns that drive results.',
+      image: ''
+    },
+    {
+      name: 'Silvia Adams',
+      position: 'Sales Manager',
+      bio: 'Silvoia is a results-driven sales professional with a talent for building relationships and closing deals. He has a proven track record of exceeding sales targets.',
+      image: ''
+    }
+  ];
+  
+  // Define the function to generate the team member cards
+  function generateTeamMemberCards() {
+    // Get the container element for the team member cards
+    const container = document.querySelector('.team-members');
+  
+    // Loop through the team members data and generate a card for each member
+    for (let i = 0; i < teamMembers.length; i++) {
+      // Create the HTML elements for the card
+      const card = document.createElement('div');
+      card.classList.add('card');
+  
+      const image = document.createElement('img');
+      image.src = teamMembers[i].image;
+      image.alt = `${teamMembers[i].name} profile image`;
+  
+      const name = document.createElement('h3');
+      name.textContent = teamMembers[i].name;
+  
+      const position = document.createElement('p');
+      position.textContent = teamMembers[i].position;
+  
+      const bio = document.createElement('p');
+      bio.textContent = teamMembers[i].bio;
+  
+      // Add the HTML elements to the card
+      card.appendChild(image);
+      card.appendChild(name);
+      card.appendChild(position);
+      card.appendChild(bio);
+  
+      // Add the card to the container element
+      container.appendChild(card);
+    }
+  }
+  
+  // Call the function to generate the team member cards
+  generateTeamMemberCards();

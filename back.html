@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Event Form</title>
+  <link rel="stylesheet" href="styleback.css">
+</head>
+<body>
+  <form>
+    <label for="event-name">Event Name:</label>
+    <input type="text" id="event-name" name="event-name" required>
+    <br>
+    <label for="event-date">Event Date:</label>
+    <input type="date" id="event-date" name="event-date" required>
+    <br>
+    <label for="event-description">Event Description:</label>
+    <textarea id="event-description" name="event-description" rows="4" cols="50" required></textarea>
+    <br>
+    <label for="event-photos">Upload Photos:</label>
+    <input type="file" id="event-photos" name="event-photos" accept="image/*" multiple>
+    <br>
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
